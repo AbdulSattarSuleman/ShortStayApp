@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\webview_flutter_android\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\webview_flutter_android\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\webview_flutter_android\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\webview_flutter_android\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

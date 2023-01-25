@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\browser_actions_context_menu_row.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\c3b07a0227758f5acfd15a861aa81b39\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\browser_actions_context_menu_page.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\c3b07a0227758f5acfd15a861aa81b39\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    }
+]

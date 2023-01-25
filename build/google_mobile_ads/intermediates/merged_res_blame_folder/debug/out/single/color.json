@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_tint.xml"
+    }
+]
