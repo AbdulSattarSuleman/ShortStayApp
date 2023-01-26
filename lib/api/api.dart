@@ -11,9 +11,8 @@ class Api {
 
   // New API Endpoint
   static const String newHome = "/api/dashboard";
-  // New API Endpoint
   static const String login = "/api/login";
-
+  //  Old Api Endpoints
   static const String oldlogin = "/jwt-auth/v1/token";
   static const String authValidate = "/jwt-auth/v1/token/validate";
   static const String user = "/listar/v1/auth/user";
