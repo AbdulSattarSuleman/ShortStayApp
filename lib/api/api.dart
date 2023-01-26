@@ -7,9 +7,10 @@ import 'package:listar_flutter_pro/utils/utils.dart';
 class Api {
   static final httpManager = HTTPManager();
 
-  ///URL API
-  // Old API Endpoint
-  static const String login = "/jwt-auth/v1/token";
+  //++++++++++++++++++++++ URL API Endpoints ++++++++++++++++++++//
+
+  // New API Endpoint
+  static const String newHome = "/api/dashboard";
   // New API Endpoint
   static const String oldlogin = "/jwt-auth/v1/token";
   static const String authValidate = "/jwt-auth/v1/token/validate";
@@ -22,8 +23,7 @@ class Api {
   static const String submitSetting = "/listar/v1/place/form";
   // Old API Endpoint
   static const String home = "/listar/v1/home/init";
-  // New API Endpoint
-  static const String oldHome = "/listar/v1/home/init";
+
   static const String categories = "/listar/v1/category/list";
   static const String discovery = "/listar/v1/category/list_discover";
   static const String withLists = "/listar/v1/wishlist/list";
@@ -50,7 +50,7 @@ class Api {
 
   ///Login api
   static Future<ResultApiModel> requestLogin(params) async {
-    final result = await httpManager.post(url: login, data: params);
+    final result = await httpManager.post(url: oldlogin, data: params);
     return ResultApiModel.fromJson(result);
   }
 
@@ -166,8 +166,9 @@ class Api {
 
   ///Get Home
   static Future<ResultApiModel> requestHome() async {
-    final result = await httpManager.get(url: home);
+    final result = await httpManager.get(url: newHome);
     // final result = await httpManager.newGet(url: home);
+    print(result);
     return ResultApiModel.fromJson(result);
   }
 

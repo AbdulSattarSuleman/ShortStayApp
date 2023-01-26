@@ -10,12 +10,24 @@ class HTTPManager {
   late final Dio _dio;
   // New Dio field
   late final Dio _newDio;
+  late final Dio _newDioV1;
 
   HTTPManager() {
     ///Dio
     _dio = Dio(
       BaseOptions(
-        baseUrl: '${Application.domain}/index.php/wp-json',
+        // baseUrl: '${Application.domain}/index.php/wp-json',
+        baseUrl: Application.domain,
+        connectTimeout: 30000,
+        receiveTimeout: 30000,
+        contentType: Headers.formUrlEncodedContentType,
+        responseType: ResponseType.json,
+      ),
+    );
+
+    _newDioV1 = Dio(
+      BaseOptions(
+        baseUrl: Application.domain,
         connectTimeout: 30000,
         receiveTimeout: 30000,
         contentType: Headers.formUrlEncodedContentType,
@@ -121,7 +133,12 @@ class HTTPManager {
         SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.light);
         SVProgressHUD.show();
       }
-      final response = await _dio.get(
+      // final response = await _dio.get(
+      //   url,
+      //   queryParameters: params,
+      //   options: options,
+      // );
+      final response = await _newDioV1.get(
         url,
         queryParameters: params,
         options: options,
@@ -148,7 +165,7 @@ class HTTPManager {
         SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.light);
         SVProgressHUD.show();
       }
-      final response = await _newDio.get(
+      final response = await _newDioV1.get(
         url,
         queryParameters: params,
         options: options,
@@ -238,6 +255,7 @@ class HTTPManager {
   ///On change domain
   void changeDomain(String domain) {
     _dio.options.baseUrl = '$domain/index.php/wp-json';
+    // _dio.options.baseUrl = domain;
   }
 
   ///Print request info
