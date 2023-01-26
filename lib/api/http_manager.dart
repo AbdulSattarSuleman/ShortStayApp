@@ -16,8 +16,7 @@ class HTTPManager {
     ///Dio
     _dio = Dio(
       BaseOptions(
-        // baseUrl: '${Application.domain}/index.php/wp-json',
-        baseUrl: Application.domain,
+        baseUrl: '${Application.domain}/index.php/wp-json',
         connectTimeout: 30000,
         receiveTimeout: 30000,
         contentType: Headers.formUrlEncodedContentType,
@@ -138,7 +137,7 @@ class HTTPManager {
       //   queryParameters: params,
       //   options: options,
       // );
-      final response = await _newDioV1.get(
+      final response = await _dio.get(
         url,
         queryParameters: params,
         options: options,
@@ -282,7 +281,7 @@ class HTTPManager {
         break;
 
       default:
-        message = "cannot_connect_server";
+        message = "cannot_connect_server_new";
         break;
     }
 

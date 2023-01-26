@@ -160,13 +160,13 @@ class Api {
   ///Get Discovery
   static Future<ResultApiModel> requestDiscovery() async {
     // final result = await httpManager.get(url: discovery);
-    final result = await httpManager.newGet(url: discovery);
+    final result = await httpManager.get(url: discovery);
     return ResultApiModel.fromJson(result);
   }
 
   ///Get Home
   static Future<ResultApiModel> requestHome() async {
-    final result = await httpManager.get(url: newHome);
+    final result = await httpManager.newGet(url: newHome);
     // final result = await httpManager.newGet(url: home);
     print(result);
     return ResultApiModel.fromJson(result);
