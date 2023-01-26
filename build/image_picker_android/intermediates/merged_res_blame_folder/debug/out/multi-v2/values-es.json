@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\values-es\\values-es.xml",
+            "outputFile": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\values-es\\values-es.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "outputFile": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\flutter-practice\\shortstayapp\\short\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-de\\values-de.xml",
+            "outputFile": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-de\\values-de.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\69b70e0a2d1c506796f422b74f927a4f\\transformed\\core-1.7.0\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\7e1930f93355ae8dd2b65487eedf4633\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,196,270,342,419,486,583,674",
+                        "endColumns": "73,66,73,71,76,66,96,90,75",
+                        "endOffsets": "124,191,265,337,414,481,578,669,745"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\69b70e0a2d1c506796f422b74f927a4f\\transformed\\core-1.7.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,25 +28,25 @@
                         "startOffsets": "750",
                         "endColumns": "100",
                         "endOffsets": "846"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\7e1930f93355ae8dd2b65487eedf4633\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,129,196,270,342,419,486,583,674",
-                        "endColumns": "73,66,73,71,76,66,96,90,75",
-                        "endOffsets": "124,191,265,337,414,481,578,669,745"
                     }
                 }
             ]
         },
         {
-            "outputFile": "E:\\flutter-practice\\shortstayapp\\short\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
+            "outputFile": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\69b70e0a2d1c506796f422b74f927a4f\\transformed\\core-1.7.0\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\7e1930f93355ae8dd2b65487eedf4633\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,196,270,342,419,486,583,674",
+                        "endColumns": "73,66,73,71,76,66,96,90,75",
+                        "endOffsets": "124,191,265,337,414,481,578,669,745"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\69b70e0a2d1c506796f422b74f927a4f\\transformed\\core-1.7.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -50,16 +60,6 @@
                         "startOffsets": "750",
                         "endColumns": "100",
                         "endOffsets": "846"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\7e1930f93355ae8dd2b65487eedf4633\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,129,196,270,342,419,486,583,674",
-                        "endColumns": "73,66,73,71,76,66,96,90,75",
-                        "endOffsets": "124,191,265,337,414,481,578,669,745"
                     }
                 }
             ]

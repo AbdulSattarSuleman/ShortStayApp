@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\d1174eb731a350c5c2fff423ac93d586\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "161",
-                        "endOffsets": "412"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1127",
-                        "endColumns": "161",
-                        "endOffsets": "1284"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\d1174eb731a350c5c2fff423ac93d586\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "161",
+                        "endOffsets": "412"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1127",
+                        "endColumns": "161",
+                        "endOffsets": "1284"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,27 +74,10 @@
             ]
         },
         {
-            "outputFile": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\d1174eb731a350c5c2fff423ac93d586\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "161",
-                        "endOffsets": "412"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1127",
-                        "endColumns": "161",
-                        "endOffsets": "1284"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -111,7 +94,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\d1174eb731a350c5c2fff423ac93d586\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "161",
+                        "endOffsets": "412"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1127",
+                        "endColumns": "161",
+                        "endOffsets": "1284"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -128,7 +128,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

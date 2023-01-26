@@ -12,6 +12,8 @@ class Api {
   // New API Endpoint
   static const String newHome = "/api/dashboard";
   // New API Endpoint
+  static const String login = "/api/login";
+
   static const String oldlogin = "/jwt-auth/v1/token";
   static const String authValidate = "/jwt-auth/v1/token/validate";
   static const String user = "/listar/v1/auth/user";
@@ -50,13 +52,14 @@ class Api {
 
   ///Login api
   static Future<ResultApiModel> requestLogin(params) async {
-    final result = await httpManager.post(url: oldlogin, data: params);
+    final result = await httpManager.post(url: login, data: params);
     return ResultApiModel.fromJson(result);
   }
 
   ///Validate token valid
   static Future<ResultApiModel> requestValidateToken() async {
-    Map<String, dynamic> result = await httpManager.post(url: authValidate);
+    Map<String, dynamic> result =
+        await httpManager.postOldDomain(url: authValidate);
     result['success'] = result['code'] == 'jwt_auth_valid_token';
     result['message'] = result['code'] ?? result['message'];
     return ResultApiModel.fromJson(result);
@@ -64,7 +67,7 @@ class Api {
 
   ///Forgot password
   static Future<ResultApiModel> requestForgotPassword(params) async {
-    Map<String, dynamic> result = await httpManager.post(
+    Map<String, dynamic> result = await httpManager.postOldDomain(
       url: forgotPassword,
       data: params,
       loading: true,
@@ -75,7 +78,7 @@ class Api {
 
   ///Register account
   static Future<ResultApiModel> requestRegister(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: register,
       data: params,
       loading: true,
@@ -90,7 +93,7 @@ class Api {
 
   ///Change Profile
   static Future<ResultApiModel> requestChangeProfile(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: changeProfile,
       data: params,
       loading: true,
@@ -105,7 +108,7 @@ class Api {
 
   ///change password
   static Future<ResultApiModel> requestChangePassword(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: changePassword,
       data: params,
       loading: true,
@@ -128,7 +131,7 @@ class Api {
   static Future<ResultApiModel> requestSetting() async {
     // final result = await httpManager.get(url: setting);
     // Call New get Method For Old Api Url
-    final result = await httpManager.newGet(url: setting);
+    final result = await httpManager.newGetv1(url: setting);
     return ResultApiModel.fromJson(result);
   }
 
@@ -160,7 +163,7 @@ class Api {
   ///Get Discovery
   static Future<ResultApiModel> requestDiscovery() async {
     // final result = await httpManager.get(url: discovery);
-    final result = await httpManager.get(url: discovery);
+    final result = await httpManager.newGetv1(url: discovery);
     return ResultApiModel.fromJson(result);
   }
 
@@ -189,13 +192,14 @@ class Api {
 
   ///Save Wish List
   static Future<ResultApiModel> requestAddWishList(params) async {
-    final result = await httpManager.post(url: addWishList, data: params);
+    final result =
+        await httpManager.postOldDomain(url: addWishList, data: params);
     return ResultApiModel.fromJson(result);
   }
 
   ///Save Product
   static Future<ResultApiModel> requestSaveProduct(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: saveProduct,
       data: params,
       loading: true,
@@ -205,7 +209,7 @@ class Api {
 
   ///Remove Wish List
   static Future<ResultApiModel> requestRemoveWishList(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: removeWishList,
       data: params,
       loading: true,
@@ -215,7 +219,8 @@ class Api {
 
   ///Clear Wish List
   static Future<ResultApiModel> requestClearWishList() async {
-    final result = await httpManager.post(url: clearWithList, loading: true);
+    final result =
+        await httpManager.postOldDomain(url: clearWithList, loading: true);
     return ResultApiModel.fromJson(result);
   }
 
@@ -233,7 +238,7 @@ class Api {
 
   ///Clear Wish List
   static Future<ResultApiModel> requestDeleteProduct(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: deleteProduct,
       data: params,
       loading: true,
@@ -267,7 +272,7 @@ class Api {
 
   ///Save Review
   static Future<ResultApiModel> requestSaveReview(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: saveComment,
       data: params,
       loading: true,
@@ -282,7 +287,7 @@ class Api {
 
   ///Upload image
   static Future<ResultApiModel> requestUploadImage(formData, progress) async {
-    var result = await httpManager.post(
+    var result = await httpManager.postOldDomain(
       url: uploadImage,
       formData: formData,
       progress: progress,
@@ -304,7 +309,7 @@ class Api {
 
   ///Get Price
   static Future<ResultApiModel> requestPrice(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: calcPrice,
       data: params,
       loading: true,
@@ -314,7 +319,7 @@ class Api {
 
   ///Get Order
   static Future<ResultApiModel> requestOrder(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: order,
       data: params,
       loading: true,
@@ -336,7 +341,7 @@ class Api {
 
   ///Booking Cancel
   static Future<ResultApiModel> requestBookingCancel(params) async {
-    final result = await httpManager.post(
+    final result = await httpManager.postOldDomain(
       url: bookingCancel,
       data: params,
       loading: true,

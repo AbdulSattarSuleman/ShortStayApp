@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
@@ -7,14 +8,13 @@ import 'package:listar_flutter_pro/configs/config.dart';
 import 'package:listar_flutter_pro/utils/logger.dart';
 
 class HTTPManager {
+  late final Dio _oldDio;
+  late final Dio _testingDio;
   late final Dio _dio;
-  // New Dio field
-  late final Dio _newDio;
-  late final Dio _newDioV1;
 
   HTTPManager() {
     ///Dio
-    _dio = Dio(
+    _oldDio = Dio(
       BaseOptions(
         baseUrl: '${Application.domain}/index.php/wp-json',
         connectTimeout: 30000,
@@ -24,7 +24,7 @@ class HTTPManager {
       ),
     );
 
-    _newDioV1 = Dio(
+    _dio = Dio(
       BaseOptions(
         baseUrl: Application.domain,
         connectTimeout: 30000,
@@ -35,7 +35,7 @@ class HTTPManager {
     );
 
     ///Dio
-    _newDio = Dio(
+    _testingDio = Dio(
       BaseOptions(
         baseUrl: 'https://testing.shortstay.pk/index.php/wp-json',
         connectTimeout: 30000,
@@ -46,7 +46,7 @@ class HTTPManager {
     );
 
     ///Interceptors dio
-    _dio.interceptors.add(
+    _oldDio.interceptors.add(
       QueuedInterceptorsWrapper(
         onRequest: (options, handler) {
           final regName = RegExp('[^A-Za-z0-9 ]');
@@ -87,6 +87,40 @@ class HTTPManager {
   }
 
   ///Post method
+  Future<dynamic> postOldDomain({
+    required String url,
+    dynamic data,
+    FormData? formData,
+    Options? options,
+    Function(num)? progress,
+    bool? loading,
+  }) async {
+    if (loading == true) {
+      SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.light);
+      SVProgressHUD.show();
+    }
+    try {
+      final response = await _oldDio.post(
+        url,
+        data: data ?? formData,
+        options: options,
+        onSendProgress: (received, total) {
+          if (progress != null) {
+            progress((received / total) / 0.01);
+          }
+        },
+      );
+      return response.data;
+    } on DioError catch (error) {
+      return _errorHandle(error, url);
+    } finally {
+      if (loading == true) {
+        SVProgressHUD.dismiss();
+      }
+    }
+  }
+
+  ///New Post method
   Future<dynamic> post({
     required String url,
     dynamic data,
@@ -112,7 +146,7 @@ class HTTPManager {
       );
       return response.data;
     } on DioError catch (error) {
-      return _errorHandle(error);
+      return _errorHandle(error, url);
     } finally {
       if (loading == true) {
         SVProgressHUD.dismiss();
@@ -137,14 +171,14 @@ class HTTPManager {
       //   queryParameters: params,
       //   options: options,
       // );
-      final response = await _dio.get(
+      final response = await _oldDio.get(
         url,
         queryParameters: params,
         options: options,
       );
       return response.data;
     } on DioError catch (error) {
-      return _errorHandle(error);
+      return _errorHandle(error, url);
     } finally {
       if (loading == true) {
         SVProgressHUD.dismiss();
@@ -164,14 +198,41 @@ class HTTPManager {
         SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.light);
         SVProgressHUD.show();
       }
-      final response = await _newDioV1.get(
+      final response = await _dio.get(
         url,
         queryParameters: params,
         options: options,
       );
       return response.data;
     } on DioError catch (error) {
-      return _errorHandle(error);
+      return _errorHandle(error, url);
+    } finally {
+      if (loading == true) {
+        SVProgressHUD.dismiss();
+      }
+    }
+  }
+
+  ///New Get method For Old API Url
+  Future<dynamic> newGetv1({
+    required String url,
+    dynamic params,
+    Options? options,
+    bool? loading,
+  }) async {
+    try {
+      if (loading == true) {
+        SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.light);
+        SVProgressHUD.show();
+      }
+      final response = await _testingDio.get(
+        url,
+        queryParameters: params,
+        options: options,
+      );
+      return response.data;
+    } on DioError catch (error) {
+      return _errorHandle(error, url);
     } finally {
       if (loading == true) {
         SVProgressHUD.dismiss();
@@ -191,14 +252,14 @@ class HTTPManager {
         SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.light);
         SVProgressHUD.show();
       }
-      final response = await _dio.put(
+      final response = await _oldDio.put(
         url,
         data: data,
         options: options,
       );
       return response.data;
     } on DioError catch (error) {
-      return _errorHandle(error);
+      return _errorHandle(error, url);
     } finally {
       if (loading == true) {
         SVProgressHUD.dismiss();
@@ -220,7 +281,7 @@ class HTTPManager {
       SVProgressHUD.show();
     }
     try {
-      final response = await _dio.download(
+      final response = await _oldDio.download(
         url,
         filePath,
         options: options,
@@ -243,7 +304,7 @@ class HTTPManager {
         "message": 'download_fail',
       };
     } on DioError catch (error) {
-      return _errorHandle(error);
+      return _errorHandle(error, url);
     } finally {
       if (loading == true) {
         SVProgressHUD.dismiss();
@@ -253,7 +314,7 @@ class HTTPManager {
 
   ///On change domain
   void changeDomain(String domain) {
-    _dio.options.baseUrl = '$domain/index.php/wp-json';
+    _oldDio.options.baseUrl = '$domain/index.php/wp-json';
     // _dio.options.baseUrl = domain;
   }
 
@@ -270,7 +331,9 @@ class HTTPManager {
   }
 
   ///Error common handle
-  Map<String, dynamic> _errorHandle(DioError error) {
+  Map<String, dynamic> _errorHandle(DioError error, String url) {
+    log(error.toString());
+    log(url.toString());
     String message = "unknown_error";
     Map<String, dynamic> data = {};
 
@@ -281,7 +344,7 @@ class HTTPManager {
         break;
 
       default:
-        message = "cannot_connect_server_new";
+        message = "cannot_connect_server";
         break;
     }
 

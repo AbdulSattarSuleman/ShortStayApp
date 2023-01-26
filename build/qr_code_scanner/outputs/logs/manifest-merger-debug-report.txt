@@ -1,29 +1,29 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
-INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
-INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
 	package
-		ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:11-50
-		INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
-		INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:11-50
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:2:5-51
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:2:5-51
 	xmlns:android
-		ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:1:1-4:12
 uses-sdk
-ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
-INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
-INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
-INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
-INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
 	tools:overrideLibrary
-		ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:13-68
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:13-68
 	android:targetSdkVersion
-		INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
-		ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
-		INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
-		ADDED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
-		INJECTED from E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml

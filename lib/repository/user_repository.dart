@@ -12,12 +12,12 @@ class UserRepository {
     required String password,
   }) async {
     final Map<String, dynamic> params = {
-      "username": username,
+      "email": username,
       "password": password,
     };
     final response = await Api.requestLogin(params);
 
-    if (response.success) {
+    if (response.data != null) {
       return UserModel.fromJson(response.data);
     }
     AppBloc.messageCubit.onShow(response.message);

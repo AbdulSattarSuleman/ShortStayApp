@@ -1,82 +1,82 @@
 [
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\admob_close_button_white_circle_black_cross.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_white_circle_black_cross.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\admob_close_button_black_circle_white_cross.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_black_circle_white_cross.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\admob_close_button_black_circle_white_cross.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_black_circle_white_cross.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\admob_close_button_white_circle_black_cross.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\fc5ebd30fc39c963b34b4370eb3c8b03\\transformed\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_white_circle_black_cross.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\3f6624946b39b0db229a98cd9a01c0c6\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\e3b08c23460964c33ef0e9c77bd8e4e8\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
     }
 ]

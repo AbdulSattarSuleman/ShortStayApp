@@ -1,26 +1,26 @@
 [
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_action.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\custom_dialog.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "E:\\flutter-practice\\shortstayapp\\short\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Braincrop\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "E:\\jawanFlutter\\amjad-flutter-project\\ShortStayApp\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\9a927844ea8e6b467a3b1a12d3c4d81d\\transformed\\core-1.8.0\\res\\layout\\notification_template_part_time.xml"
     }
 ]

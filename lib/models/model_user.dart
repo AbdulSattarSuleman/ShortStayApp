@@ -31,12 +31,13 @@ class UserModel {
 
   factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
-      id: json['id'] ?? 0,
+      // id: json['id'] ?? 0,
+      id: int.parse(json['id'] ?? 0),
       name: json['display_name'] ?? 'Unknown',
       nickname: json['user_nicename'] ?? 'Unknown',
       image: json['user_photo'] ?? 'Unknown',
       url: json['user_url'] ?? 'Unknown',
-      level: json['user_level'] ?? 0,
+      level: int.parse(json['user_level'] ?? 0),
       description: json['description'] ?? 'description',
       tag: json['tag'] ?? 'Unknown',
       rate: double.tryParse('${json['rating_avg']}') ?? 0.0,

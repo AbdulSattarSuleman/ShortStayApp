@@ -10,7 +10,8 @@ class HomeCubit extends Cubit<HomeState> {
   Future<void> onLoad() async {
     ///Fetch API Home
     final response = await Api.requestHome();
-    if (response.success) {
+    // if (response.success) {
+    if (response.data != null) {
       final banner = List<String>.from(response.data['sliders'] ?? []);
 
       final category = List.from(response.data['categories'] ?? []).map((item) {

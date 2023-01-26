@@ -4,12 +4,12 @@
 4    package="net.touchcapture.qr.flutterqr" >
 5
 6    <uses-sdk
-6-->E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+6-->C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
 7        android:minSdkVersion="20"
-7-->E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+7-->C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
 8        android:targetSdkVersion="32"
-8-->E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
+8-->C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:3-71
 9        tools:overrideLibrary="com.google.zxing.client.android" />
-9-->E:\flutter\flutter_windows_2.10.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:13-68
+9-->C:\flutter\.pub-cache\hosted\pub.dartlang.org\qr_code_scanner-1.0.0\android\src\main\AndroidManifest.xml:3:13-68
 10
 11</manifest>
